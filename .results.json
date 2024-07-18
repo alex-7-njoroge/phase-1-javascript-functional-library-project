@@ -5,15 +5,15 @@
     "passes": 6,
     "pending": 0,
     "failures": 21,
-    "start": "2024-07-18T14:47:25.166Z",
-    "end": "2024-07-18T14:47:26.113Z",
-    "duration": 947
+    "start": "2024-07-18T15:35:09.829Z",
+    "end": "2024-07-18T15:35:10.740Z",
+    "duration": 911
   },
   "tests": [
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js myEach calls alert with each element passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: myEach is not defined\n    at Context.<anonymous> (test/indexTest.js:20:7)\n    at process.processImmediate (node:internal/timers:478:21)",
@@ -33,7 +33,7 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js myEach returns the original collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: myEach is not defined\n    at Context.<anonymous> (test/indexTest.js:31:22)\n    at process.processImmediate (node:internal/timers:478:21)",
@@ -53,7 +53,7 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js myMap does not modify the original array",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
@@ -70,7 +70,7 @@
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myMap does not modify the original object",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -97,7 +97,7 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js myReduce does not modify the original array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
@@ -131,7 +131,7 @@
     {
       "title": "does not traverse the whole array if the value is found early",
       "fullTitle": "index.js myFind does not traverse the whole array if the value is found early",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: myFind is not defined\n    at Context.<anonymous> (test/indexTest.js:113:7)\n    at process.processImmediate (node:internal/timers:478:21)",
@@ -231,7 +231,7 @@
     {
       "title": "retrieves all the names of the object's own enumerable properties",
       "fullTitle": "index.js myKeys retrieves all the names of the object's own enumerable properties",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: myKeys is not defined\n    at Context.<anonymous> (test/indexTest.js:241:14)\n    at process.processImmediate (node:internal/timers:478:21)",
@@ -268,7 +268,7 @@
     {
       "title": "calls alert with each element passed",
       "fullTitle": "index.js myEach calls alert with each element passed",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: myEach is not defined\n    at Context.<anonymous> (test/indexTest.js:20:7)\n    at process.processImmediate (node:internal/timers:478:21)",
@@ -288,7 +288,7 @@
     {
       "title": "returns the original collection",
       "fullTitle": "index.js myEach returns the original collection",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: myEach is not defined\n    at Context.<anonymous> (test/indexTest.js:31:22)\n    at process.processImmediate (node:internal/timers:478:21)",
@@ -358,7 +358,7 @@
     {
       "title": "does not traverse the whole array if the value is found early",
       "fullTitle": "index.js myFind does not traverse the whole array if the value is found early",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: myFind is not defined\n    at Context.<anonymous> (test/indexTest.js:113:7)\n    at process.processImmediate (node:internal/timers:478:21)",
@@ -458,7 +458,7 @@
     {
       "title": "retrieves all the names of the object's own enumerable properties",
       "fullTitle": "index.js myKeys retrieves all the names of the object's own enumerable properties",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: myKeys is not defined\n    at Context.<anonymous> (test/indexTest.js:241:14)\n    at process.processImmediate (node:internal/timers:478:21)",
@@ -480,21 +480,21 @@
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js myMap does not modify the original array",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original object",
       "fullTitle": "index.js myMap does not modify the original object",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "does not modify the original array",
       "fullTitle": "index.js myReduce does not modify the original array",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },

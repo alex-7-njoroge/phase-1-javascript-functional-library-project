@@ -19,8 +19,6 @@ const fi = (function() {
       functions: function() {
   
       },
-  
-  
     }
   })()
   
